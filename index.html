@@ -24,29 +24,65 @@
         margin-top: 50px;
       }
       .btn-me {
-        padding: 10px 30px 10px 30px;
+        padding: 5px 30px 5px 30px;
         background-image: linear-gradient(to right, #f5b12f 0%, #e178ce 48%, #f5b12f 100%);
         background-size: 200% auto;
         color: #fff;
         display: inline-block;
         transition: all 300ms linear 0s;
+        border-radius: 30px;
       }
       .btn-me:hover {
         background-position: right center;
         color: #fff;
       }
-      .badge-me{
+      .badge-me {
+        border: 1px solid transparent;
         background: linear-gradient(to right, #f5b12f 0%, #e178ce 100%);
         padding: 7px 30px 7px 30px;
         color: #fff;
         font-weight: 500;
         border-radius: 30px;
         font-size: 12px;
+        font-weight: 500;
+      }
+      #particles-js {
+        width: 100%;
+        height: 100%;
+        /* background-image: url(''); */
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+      @media (min-width: 576px) {
+        .container {
+          margin-top: -300px;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          margin-top: -400px;
+        }
+      }
+      @media (min-width: 992px) {
+        .container {
+          margin-top: -500px;
+        }
+      }
+      @media (min-width: 1200px) {
+        .container {
+          margin-top: -700px;
+        }
       }
     </style>
   </head>
   <body>
-    <div class="container-fluid">
+    <div id="particles-js">
+    </div>
+    <div class="container">
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
           <center>
@@ -59,14 +95,18 @@
             <span class="badge-me">Fullstack Web Programmer</span>
             <br><br>
             <p>Hello everyone, introduce my self my name's Ahmad Muhyidin, but you can call me Idin. I'm a Fullstack Web Programmer, but I also always wish to become a Mobile Programmer if there is an opportunity.</p>
-            <!-- <a class="btn btn-me" href="#">Hire Me</a> -->
+            <a class="btn btn-me" href="https://id.linkedin.com/in/ahmadmuhyidin19">Linkedin</a>
+            <a class="btn btn-me" href="https://id.linkedin.com/in/ahmadmuhyidin19">Instagram</a>
           </center>
         </div>
       </div>
     </div>
+
     <!-- Optional JavaScript -->
     <script src="assets/js/vendor/jquery-slim.min.js"></script>
     <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/particle-js/particles.js"></script>
+    <script src="assets/js/vendor/particle-js/app.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
   </body>
 </html>
