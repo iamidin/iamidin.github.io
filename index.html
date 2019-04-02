@@ -12,6 +12,8 @@
     <style>
       body  {
         font-family: "Roboto", sans-serif;
+        height: 80vh;
+        overflow: hidden;
       }
       .circle {
         border-radius: 200px;
@@ -19,6 +21,9 @@
       }
       .img-fluid {
         max-width: 40%;
+      }
+      .container {
+        z-index: 9999;
       }
       .row {
         margin-top: 50px;
@@ -50,6 +55,52 @@
         font-size: 12px;
         font-weight: 500;
       }
+      .wave {
+        z-index: -999;
+      }
+      .wave,
+      .wave::before,
+      .wave::after {
+        content: '';
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        width: 250vw;
+        height: 250vw;
+        margin-left: -125vw;
+        transform-origin: 50% 50%;
+        border-radius: 38% 42%;
+        /* background-color: #86f8ef; */
+        background-color: #fcb75c;
+        animation: spin 30s infinite linear;
+        mix-blend-mode: multiply;
+        opacity: 0.5;
+      }
+      .wave::before {
+        width: 105%;
+        height: 98%;
+        margin-top:-225vw;
+        transform-origin: 50% 50%;
+        border-radius: 40% 38%;
+        /* background-color: #f8d58b; */
+        background-color: #fcf15c;
+        animation: spin 27s infinite linear;
+        opacity: 0.8;
+      }
+      .wave::after {
+        width: 102%;
+        height: 99%;
+        margin-top: -225vw;
+        transform-origin: 50% 50%;
+        border-radius: 48% 42%;
+        /* background-color: #86f88c; */
+        background-color: #ee8bdd;
+        animation: spin 25s infinite linear;
+        opacity: 0.6;
+      }
+      @keyframes spin {
+        100% { transform: rotate(360deg); }
+      }
     </style>
   </head>
   <body>
@@ -72,7 +123,7 @@
         </div>
       </div>
     </div>
-
+    <div class="wave"></div>
     <!-- Optional JavaScript -->
     <script src="assets/js/vendor/jquery-slim.min.js"></script>
     <script src="assets/js/vendor/popper.min.js"></script>
