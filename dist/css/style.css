@@ -141,7 +141,7 @@ audio {
         margin-top: 70px;
     }
     .jc-rocket-container{
-        top: 70%;
+        top: 50%;
         transform: translate(-50%,-50%) rotate(80deg);
     }
 }
@@ -156,7 +156,7 @@ audio {
         margin-top: 70px;
     }
     .jc-rocket-container{
-        top: 80%;
+        top: 60%;
         transform: translate(-50%,-50%) rotate(80deg);
     }
 }
@@ -168,13 +168,13 @@ audio {
         margin-top: 210px;
     }
     .m-top-hello {
-        margin-top: 40px;
+        margin-top: 4s0px;
     }
     .m-top-picture {
         margin-top: 95px;
     }
     .jc-rocket-container{
-        top: 85%;
+        top: 65%;
         transform: translate(-50%,-50%) rotate(80deg);
     }
 }
