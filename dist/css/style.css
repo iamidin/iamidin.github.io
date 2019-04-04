@@ -127,7 +127,7 @@ audio {
     }
     .jc-rocket-container{
         top: 60%;
-        transform: translate(-50%,-50%) rotate(80deg);
+        transform: translate(-50%,-50%) rotate(30deg);
     }
 }
 @media (min-width: 400px) {
@@ -142,7 +142,7 @@ audio {
     }
     .jc-rocket-container{
         top: 50%;
-        transform: translate(-50%,-50%) rotate(80deg);
+        transform: translate(-50%,-50%) rotate(30deg);
     }
 }
 @media (min-width: 576px) {
@@ -157,7 +157,7 @@ audio {
     }
     .jc-rocket-container{
         top: 60%;
-        transform: translate(-50%,-50%) rotate(80deg);
+        transform: translate(-50%,-50%) rotate(30deg);
     }
 }
 @media (min-width: 768px) {
@@ -175,7 +175,7 @@ audio {
     }
     .jc-rocket-container{
         top: 65%;
-        transform: translate(-50%,-50%) rotate(80deg);
+        transform: translate(-50%,-50%) rotate(30deg);
     }
 }
 @media (min-width: 992px) {
