@@ -132,10 +132,10 @@ audio {
 }
 @media (min-width: 400px) {
     .m-top {
-        margin-top: 150px;
+        margin-top: 160px;
     }
     .m-top-hello {
-        margin-top: 10px;
+        margin-top: 25px;
     }
     .m-top-picture {
         margin-top: 70px;
@@ -147,10 +147,10 @@ audio {
 }
 @media (min-width: 576px) {
     .m-top {
-        margin-top: 170px;
+        margin-top: 180px;
     }
     .m-top-hello {
-        margin-top: 10px;
+        margin-top: 30px;
     }
     .m-top-picture {
         margin-top: 70px;
@@ -165,10 +165,10 @@ audio {
         margin-top: -40px;
     } */
     .m-top {
-        margin-top: 200px;
+        margin-top: 210px;
     }
     .m-top-hello {
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .m-top-picture {
         margin-top: 95px;
