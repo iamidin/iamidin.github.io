@@ -120,7 +120,7 @@ audio {
 }
 @media (min-width: 320px) {
     .m-top {
-        margin-top: 85px;
+        margin-top: 90px;
     }
     .m-top-hello {
         margin-top: 5px;
@@ -135,7 +135,7 @@ audio {
 }
 @media (min-width: 360px) {
     .m-top {
-        margin-top: 120px;
+        margin-top: 110px;
     }
     .m-top-hello {
         margin-top: 5px;
@@ -195,7 +195,7 @@ audio {
 }
 @media (min-width: 600px) {
     .m-top {
-        margin-top: 210px;
+        margin-top: 220px;
     }
     .m-top-hello {
         margin-top: 20px;
