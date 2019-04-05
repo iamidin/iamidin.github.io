@@ -8,7 +8,7 @@ body  {
     /* height: 80vh;
     overflow: hidden; */
 }
-audio { 
+audio {
     display:none;
 }
 .circle {
@@ -24,18 +24,6 @@ audio {
 /* .row {
     margin-top: 50px;
 } */
-.min-m-top {
-    margin-top: -25px;
-}
-.m-top {
-    margin-top: 255px;
-}
-.m-top-hello {
-    margin-top: 220px;
-}
-.m-top-picture {
-    margin-top: 235px;
-}
 .m-bottom{
     margin-bottom: 20px;
 }
@@ -130,15 +118,60 @@ audio {
         transform: translate(-50%,-50%) rotate(30deg);
     }
 }
-@media (min-width: 400px) {
+@media (min-width: 320px) {
     .m-top {
-        margin-top: 170px;
+        margin-top: 85px;
     }
     .m-top-hello {
-        margin-top: 25px;
+        margin-top: 5px;
     }
     .m-top-picture {
-        margin-top: 70px;
+        margin-top: 60px;
+    }
+    .jc-rocket-container{
+        top: 60%;
+        transform: translate(-50%,-50%) rotate(30deg);
+    }
+}
+@media (min-width: 360px) {
+    .m-top {
+        margin-top: 110px;
+    }
+    .m-top-hello {
+        margin-top: 5px;
+    }
+    .m-top-picture {
+        margin-top: 60px;
+    }
+    .jc-rocket-container{
+        top: 60%;
+        transform: translate(-50%,-50%) rotate(30deg);
+    }
+}
+@media (min-width: 375px) {
+    .m-top {
+        margin-top: 125px;
+    }
+    .m-top-hello {
+        margin-top: 5px;
+    }
+    .m-top-picture {
+        margin-top: 60px;
+    }
+    .jc-rocket-container{
+        top: 60%;
+        transform: translate(-50%,-50%) rotate(30deg);
+    }
+}
+@media (min-width: 400px) {
+    .m-top {
+        margin-top: 140px;
+    }
+    .m-top-hello {
+        margin-top: 15px;
+    }
+    .m-top-picture {
+        margin-top: 65px;
     }
     .jc-rocket-container{
         top: 50%;
@@ -192,15 +225,35 @@ audio {
         margin-top: 235px;
     }
 }
-  
+
 @media (min-width: 1200px) {
     /* .container {
         margin-top: -80px;
     } */
-    /* .m-top {
-        margin-top: 240px;
-    } */
-  }
+    .min-m-top {
+        margin-top: -25px;
+    }
+    .m-top {
+        margin-top: 255px;
+    }
+    .m-top-hello {
+        margin-top: 220px;
+    }
+    .m-top-picture {
+        margin-top: 235px;
+    }
+}
+@media (min-width: 1400px) {
+    .m-top {
+        margin-top: 325px;
+    }
+    .m-top-hello {
+        margin-top: 285px;
+    }
+    .m-top-picture {
+        margin-top: 310px;
+    }
+}
 .earth {
     height: 200px;
     width: 200px;
@@ -472,7 +525,7 @@ audio {
     transform:rotate(45deg) skew(8deg, 8deg) rotate(180deg);
     animation: flames 2s linear infinite;
     box-sizing: border-box;
-}  
+}
 @keyframes flames{
     0%{
       transform:scale(0.8) rotate(45deg) skew(8deg, 8deg) rotate(180deg);
@@ -497,8 +550,8 @@ audio {
         z-index: 999;
     }
     100% {
-        -webkit-transform: translate(0, -5500px);
-                transform: translate(0, -5500px);
+        -webkit-transform: translate(0, -2500px);
+                transform: translate(0, -2500px);
         z-index: 999;
     }
 }
