@@ -178,8 +178,8 @@ a:hover, a:focus, a:active {
 
 @media (max-width: 992px) {
   .navbar {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .navbar-nav {
@@ -187,12 +187,12 @@ a:hover, a:focus, a:active {
   }
 
   h1 {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     line-height: 5.5rem;
   }
 
   .title-menu {
-    font-size: 20pt;
+    font-size: 15pt;
     font-style: bold;
     text-transform: uppercase;
     margin-right: -60px;
