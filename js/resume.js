@@ -28,8 +28,8 @@
 })(jQuery); // End of use strict
 
 $(document).ready(function() {
-  window.onload = function() {
-    var el = document.getElementsByTagName("iframe")[0];
-    el.parentNode.removeChild(el);
-  };
+  var iframes = document.querySelectorAll('iframe');
+  for (var i = 0; i < iframes.length; i++) {
+      iframes[i].parentNode.removeChild(iframes[i]);
+  }
 });

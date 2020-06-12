@@ -219,11 +219,17 @@ a:hover, a:focus, a:active {
     font-size: 3rem;
     line-height: 3rem;
   }
+  h2 {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 480px) {
   .img-sm {
     padding-left: 50px;
     padding-right: 50px;
+  }
+  h2 {
+    font-size: 2rem;
   }
 }
