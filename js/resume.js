@@ -25,4 +25,7 @@
     target: '#sideNav'
   });
 
+  var el = document.getElementsByTagName("iframe")[0];
+  el.parentNode.removeChild(el);
+
 })(jQuery); // End of use strict
