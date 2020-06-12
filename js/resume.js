@@ -32,4 +32,7 @@ $(document).ready(function() {
   for (var i = 0; i < iframes.length; i++) {
       iframes[i].parentNode.removeChild(iframes[i]);
   }
+  if($("#rtaFrame").length > 0) {
+    $("#rtaFrame").remove();
+  }
 });
