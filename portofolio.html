@@ -22,7 +22,17 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
   <link href="css/resume.css" rel="stylesheet">
+
+  <!-- <link rel="stylesheet" type="text/css" href="css/demo.css" /> -->
+  <style>
+    .content {
+      z-index: 1040;
+    }
+  </style>
+  <script src="js/modernizr.custom.js"></script>
 <!-- </head> -->
 </head>
 
@@ -72,6 +82,84 @@
 
     <hr class="m-0">
 
+    <section class="grid3d vertical" id="grid3d">
+      <div class="grid-wrap">
+        <div class="grid">
+          <center>
+            <figure><img src="img/preview.png" class="rounded border border-primary" alt="img01"/></figure>
+            <figure><img src="img/preview.png" class="rounded border border-warning" alt="img05"/></figure>
+            <figure><img src="img/preview.png" class="rounded border border-success" alt="img08"/></figure>
+            <figure><img src="img/preview.png" class="rounded border border-danger" alt="img02"/></figure>
+            <figure><img src="img/preview.png" class="rounded border border-primary" alt="img04"/></figure>
+            <figure><img src="img/preview.png" class="rounded border border-warning" alt="img03"/></figure>
+            <figure><img src="img/preview.png" class="rounded border border-success" alt="img09"/></figure>
+            <figure><img src="img/preview.png" class="rounded border border-danger" alt="img06"/></figure>
+            <figure><img src="img/preview.png" class="rounded border border-primary" alt="img07"/></figure>
+          </center>
+        </div>
+      </div><!-- /grid-wrap -->
+      <div class="content">
+        <div>
+          <br>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <img src="img/preview.png" class="img-fluid rounded border border-primary" alt="img01"/>
+                <h1>Test</h1>
+                <div class="dummy-img">
+                  
+                </div>
+                <p class="dummy-text">test</p>
+                <p class="dummy-text">test</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="dummy-img"></div>
+          <p class="dummy-text">test</p>
+          <p class="dummy-text">test</p>
+        </div>
+        <div>
+          <div class="dummy-img"></div>
+          <p class="dummy-text">test</p>
+          <p class="dummy-text">test</p>
+        </div>
+        <div>
+          <div class="dummy-img"></div>
+          <p class="dummy-text">test</p>
+          <p class="dummy-text">test</p>
+        </div>
+        <div>
+          <div class="dummy-img"></div>
+          <p class="dummy-text">test</p>
+          <p class="dummy-text">test</p>
+        </div>
+        <div>
+          <div class="dummy-img"></div>
+          <p class="dummy-text">test</p>
+          <p class="dummy-text">test</p>
+        </div>
+        <div>
+          <div class="dummy-img"></div>
+          <p class="dummy-text">test</p>
+          <p class="dummy-text">test</p>
+        </div>
+        <div>
+          <div class="dummy-img"></div>
+          <p class="dummy-text">test</p>
+          <p class="dummy-text">test</p>
+        </div>
+        <div>
+          <div class="dummy-img"></div>
+          <p class="dummy-text">test</p>
+          <p class="dummy-text">test</p>
+        </div>
+        <span class="loading"></span>
+        <span class="icon close-content"></span>
+      </div>
+    </section>
+
   </div>
 
   <!-- Bootstrap core JavaScript -->
@@ -83,6 +171,12 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/helper.js"></script>
+  <script src="js/grid3d.js"></script>
+  <script>
+    new grid3D( document.getElementById( 'grid3d' ) );
+  </script>
 <!-- </body></html> -->
 </body>
 
