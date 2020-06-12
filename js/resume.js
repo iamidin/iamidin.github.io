@@ -26,3 +26,22 @@
   });
 
 })(jQuery); // End of use strict
+
+$(document).ready(function () {
+  function removeAds() {
+    var iframes = document.querySelectorAll('iframe');
+    for (var i = 0; i < iframes.length; i++) {
+      iframes[i].parentNode.removeChild(iframes[i]);
+    }
+    if ($("#rtaFrame").length > 0) {
+      $("#rtaFrame").remove();
+    }
+  }
+
+  for(var i = 1000; i < 20000; i+1000) {
+    setTimeout(function() {
+      console.log('remove ads by ' + i + " second");
+      removeAds();
+    }, i);
+  }
+});
