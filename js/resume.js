@@ -37,10 +37,9 @@ $(document).ready(function () {
       $("#rtaFrame").remove();
     }
   }
-
-  for(var i = 1000; i < 20000; i+1000) {
+  for(var i = 1000; i <= 30000; i+=1000) {
     setTimeout(function() {
-      console.log('remove ads by ' + i + " second");
+      console.log('remove ads per second');
       removeAds();
     }, i);
   }
