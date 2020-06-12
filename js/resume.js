@@ -25,7 +25,11 @@
     target: '#sideNav'
   });
 
-  var el = document.getElementsByTagName("iframe")[0];
-  el.parentNode.removeChild(el);
-
 })(jQuery); // End of use strict
+
+$(document).ready(function() {
+  window.onload = function() {
+    var el = document.getElementsByTagName("iframe")[0];
+    el.parentNode.removeChild(el);
+  };
+});
