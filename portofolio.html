@@ -31,9 +31,13 @@
     .content {
       z-index: 1040;
     }
+
+    .modal-body>.border {
+      margin-bottom: 20px;
+    }
   </style>
   <script src="js/modernizr.custom.js"></script>
-<!-- </head> -->
+  <!-- </head> -->
 </head>
 
 <body id="page-top">
@@ -86,78 +90,244 @@
       <div class="grid-wrap">
         <div class="grid">
           <center>
-            <figure><img src="img/preview.png" class="rounded border border-primary" alt="img01"/></figure>
-            <figure><img src="img/preview.png" class="rounded border border-warning" alt="img05"/></figure>
-            <figure><img src="img/preview.png" class="rounded border border-success" alt="img08"/></figure>
-            <figure><img src="img/preview.png" class="rounded border border-danger" alt="img02"/></figure>
-            <figure><img src="img/preview.png" class="rounded border border-primary" alt="img04"/></figure>
-            <figure><img src="img/preview.png" class="rounded border border-warning" alt="img03"/></figure>
-            <figure><img src="img/preview.png" class="rounded border border-success" alt="img09"/></figure>
-            <figure><img src="img/preview.png" class="rounded border border-danger" alt="img06"/></figure>
-            <figure><img src="img/preview.png" class="rounded border border-primary" alt="img07"/></figure>
+            <figure><img src="img/FR_1.png" class="rounded border border-primary" alt="Friends Apps" data-toggle="modal"
+                data-target="#modal1" /></figure>
+            <figure><img src="img/FRA_1.png" class="rounded border border-warning" alt="Friends Admin"
+                data-toggle="modal" data-target="#modal2" /></figure>
+            <figure><img src="img/AE_4.png" class="rounded border border-success" alt="Aegon Direct" data-toggle="modal"
+                data-target="#modal3" /></figure>
+            <figure><img src="img/WOA_1.png" class="rounded border border-danger" alt="Web Official Admin"
+                data-toggle="modal" data-target="#modal4" /></figure>
+            <figure><img src="img/ERP_1.png" class="rounded border border-primary" alt="Enterprise Resource Planning"
+                data-toggle="modal" data-target="#modal5" /></figure>
+            <figure><img src="img/POS_1.png" class="rounded border border-warning" alt="Point Of Sale"
+                data-toggle="modal" data-target="#modal6" /></figure>
+            <figure><img src="img/AI_1.png" class="rounded border border-success" alt="Radar Bogor Inventory"
+                data-toggle="modal" data-target="#modal7" /></figure>
+            <figure><img src="img/RB_1.png" class="rounded border border-danger" alt="Redbase Foundation"
+                data-toggle="modal" data-target="#modal8" /></figure>
+            <figure><img src="img/PLPB_1.png" class="rounded border border-primary" alt="Pembayaran Listrik Pasca Bayar"
+                data-toggle="modal" data-target="#modal9" /></figure>
+            <figure><img src="img/EC_1.png" class="rounded border border-warning" alt="E-Commerce" data-toggle="modal"
+                data-target="#modal10" /></figure>
+            <figure><img src="img/MK_1.png" class="rounded border border-success" alt="Pembayaran Listrik Pasca Bayar"
+                data-toggle="modal" data-target="#modal11" /></figure>
           </center>
         </div>
       </div><!-- /grid-wrap -->
-      <div class="content">
-        <div>
-          <br>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <img src="img/preview.png" class="img-fluid rounded border border-primary" alt="img01"/>
-                <h1>Test</h1>
-                <div class="dummy-img">
-                  
-                </div>
-                <p class="dummy-text">test</p>
-                <p class="dummy-text">test</p>
-              </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal1">Friends</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/FR_1.png" class="img-fluid rounded border border-primary" alt="Friends Apps" />
+              <img src="img/FR_2.png" class="img-fluid rounded border border-primary" alt="Friends Apps" />
+              <img src="img/FR_3.png" class="img-fluid rounded border border-primary" alt="Friends Apps" />
+              <img src="img/FR_4.png" class="img-fluid rounded border border-primary" alt="Friends Apps" />
+              <img src="img/FR_5.png" class="img-fluid rounded border border-primary" alt="Friends Apps" />
+              <img src="img/FR_6.png" class="img-fluid rounded border border-primary" alt="Friends Apps" />
             </div>
           </div>
         </div>
-        <div>
-          <div class="dummy-img"></div>
-          <p class="dummy-text">test</p>
-          <p class="dummy-text">test</p>
-        </div>
-        <div>
-          <div class="dummy-img"></div>
-          <p class="dummy-text">test</p>
-          <p class="dummy-text">test</p>
-        </div>
-        <div>
-          <div class="dummy-img"></div>
-          <p class="dummy-text">test</p>
-          <p class="dummy-text">test</p>
-        </div>
-        <div>
-          <div class="dummy-img"></div>
-          <p class="dummy-text">test</p>
-          <p class="dummy-text">test</p>
-        </div>
-        <div>
-          <div class="dummy-img"></div>
-          <p class="dummy-text">test</p>
-          <p class="dummy-text">test</p>
-        </div>
-        <div>
-          <div class="dummy-img"></div>
-          <p class="dummy-text">test</p>
-          <p class="dummy-text">test</p>
-        </div>
-        <div>
-          <div class="dummy-img"></div>
-          <p class="dummy-text">test</p>
-          <p class="dummy-text">test</p>
-        </div>
-        <div>
-          <div class="dummy-img"></div>
-          <p class="dummy-text">test</p>
-          <p class="dummy-text">test</p>
-        </div>
-        <span class="loading"></span>
-        <span class="icon close-content"></span>
       </div>
+
+      <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal2">Friends Admin</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/FRA_3.png" class="img-fluid rounded border border-warning" alt="Friends Admin" />
+              <img src="img/FRA_2.png" class="img-fluid rounded border border-warning" alt="Friends Admin" />
+              <img src="img/FRA_3.png" class="img-fluid rounded border border-warning" alt="Friends Admin" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal3">Aegon Direct</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/AE_1.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/AE_2.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/AE_3.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/AE_4.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/AE_5.png" class="img-fluid rounded border border-success" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal4">Web Official Admin</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/WOA_1.png" class="img-fluid rounded border border-danger" alt="" />
+              <img src="img/WOA_2.png" class="img-fluid rounded border border-danger" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal5">Enterprise Resource Planning</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/ERP_1.png" class="img-fluid rounded border border-primary" alt="" />
+              <img src="img/ERP_2.png" class="img-fluid rounded border border-primary" alt="" />
+              <img src="img/ERP_3.png" class="img-fluid rounded border border-primary" alt="" />
+              <img src="img/ERP_4.png" class="img-fluid rounded border border-primary" alt="" />
+              <img src="img/ERP_5.png" class="img-fluid rounded border border-primary" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal6">Point Of Sale</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/POS_1.png" class="img-fluid rounded border border-warning" alt="" />
+              <img src="img/POS_2.png" class="img-fluid rounded border border-warning" alt="" />
+              <img src="img/POS_3.png" class="img-fluid rounded border border-warning" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal7">Radar Bogor Inventory</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/AI_1.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/AI_2.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/AI_3.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/AI_4.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/AI_5.png" class="img-fluid rounded border border-success" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal8">Redbase Foundation</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/RB_1.png" class="img-fluid rounded border border-danger" alt="" />
+              <img src="img/RB_2.png" class="img-fluid rounded border border-danger" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal9">Pembayaran Listrik Pasca Bayar</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/PLPB_1.png" class="img-fluid rounded border border-primary" alt="" />
+              <img src="img/PLPB_2.png" class="img-fluid rounded border border-primary" alt="" />
+              <img src="img/PLPB_3.png" class="img-fluid rounded border border-primary" alt="" />
+              <img src="img/PLPB_4.png" class="img-fluid rounded border border-primary" alt="" />
+              <img src="img/PLPB_5.png" class="img-fluid rounded border border-primary" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal10">E-Commerce Durian Bogor</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/EC_1.png" class="img-fluid rounded border border-warning" alt="" />
+              <img src="img/EC_2.png" class="img-fluid rounded border border-warning" alt="" />
+              <img src="img/EC_3.png" class="img-fluid rounded border border-warning" alt="" />
+              <img src="img/EC_4.png" class="img-fluid rounded border border-warning" alt="" />
+              <img src="img/EC_5.png" class="img-fluid rounded border border-warning" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal11">Movie Catalogue</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/MK_1.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/MK_2.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/MK_3.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/MK_4.png" class="img-fluid rounded border border-success" alt="" />
+              <img src="img/MK_5.png" class="img-fluid rounded border border-success" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
 
   </div>
@@ -173,11 +343,11 @@
   <script src="js/resume.js"></script>
   <script src="js/classie.js"></script>
   <script src="js/helper.js"></script>
-  <script src="js/grid3d.js"></script>
+  <!-- <script src="js/grid3d.js"></script> -->
   <script>
-    new grid3D( document.getElementById( 'grid3d' ) );
+    new grid3D(document.getElementById('grid3d'));
   </script>
-<!-- </body></html> -->
+  <!-- </body></html> -->
 </body>
 
 </html>
