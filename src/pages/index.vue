@@ -20,9 +20,9 @@
               Me</a> -->
             <button class="btn btn-primary rounded-full
             ">Contact Me</button>
-            <a href="#" class="cursor-pointer font-semibold leading-6 flex justify-center items-center">
+            <button class="cursor-pointer font-semibold leading-6 flex justify-center items-center">
               <i class="la la-file-download text-3xl"></i>
-              <span class="ml-2">Download CV</span></a>
+              <span class="ml-2">Download CV</span></button>
           </div>
         </div>
         <div
