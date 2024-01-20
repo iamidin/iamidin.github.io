@@ -28,6 +28,11 @@ export default defineNuxtConfig({
     base: '/iamidin.github.io/',
   },
 
+  generate: {
+    nojekyll: true,
+    fallback: '404.html',
+  },
+
   srcDir: './src',
 
   runtimeConfig: {
