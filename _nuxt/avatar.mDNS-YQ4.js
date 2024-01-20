@@ -1,1 +1,0 @@
-import{_ as t,v as r,x as s,J as a}from"./entry.NQmdJHOY.js";const o={},n={class:"mx-auto md:max-w-7xl px-5 py-5 md:py-7"};function c(e,_){return r(),s("div",n,[a(e.$slots,"default")])}const l=t(o,[["render",c]]),p=""+new URL("avatar.RRRMPeEA.jpeg",import.meta.url).href;export{l as G,p as _};
