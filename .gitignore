@@ -5,7 +5,7 @@ node_modules
 .cache
 .output
 .env
-dist
+# dist
 .DS_Store
 .firebase/*
 sw.*

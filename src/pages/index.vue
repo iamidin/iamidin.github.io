@@ -21,7 +21,7 @@
               class="cursor-pointer rounded-full bg-gradient-to-br from-sky-500 to-blue-500 px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">Email
               Me</a> -->
             <button class="btn btn-primary rounded-full
-            ">Contact Me</button>
+            ">Contact Me Bro!</button>
             <button class="cursor-pointer font-semibold leading-6 flex justify-center items-center">
               <i class="la la-file-download text-3xl"></i>
               <span class="ml-2">Download CV</span></button>
