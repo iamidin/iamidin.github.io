@@ -1,7 +1,7 @@
-// const LANG = 'en_US';
+// const LANG = 'id_ID';
 // const TYPE = 'website';
-// const URL = 'https://hippocrades.com';
-// const SITE_NAME = 'hippocrades.com';
+// const URL = 'https://iamidin.github.io';
+// const SITE_NAME = 'iamidin.github.io';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // eslint-disable-next-line no-undef
@@ -15,8 +15,12 @@ export default defineNuxtConfig({
     'nuxt-icons',
   ],
 
+  buildModules: [
+    '@nuxtjs/pwa',
+  ],
+
   gtag: {
-    id: 'G-M1KERXTK1H', // TODO: Add your google analytics 4 tag here
+    id: 'GTM-MNWF6DWS',
   },
 
   target: 'static',
@@ -116,5 +120,9 @@ export default defineNuxtConfig({
 
   devtools: {
     enabled: false,
+  },
+
+  devServer: {
+    port: process.env.PORT,
   },
 });

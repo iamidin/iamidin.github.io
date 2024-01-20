@@ -11,9 +11,11 @@
         </div>
         <div class="container">
           <img src="~/assets/images/avatar.jpeg" class="h-20 rounded-full mb-4" />
-          <p data-aos="flip-down" class="text-2xl md:text-3xl font-bold  mb-2">Hi, I'm Idin</p>
+          <p data-aos="flip-down" class="text-2xl md:text-3xl font-bold  mb-2">Hello, I'm Idin</p>
           <p data-aos="fade-down" data-aos-delay="300" class="text-5xl  md:text-6xl font-bold">Fullstack Developer</p>&nbsp
-          <p data-aos="fade-down" data-aos-delay="600" class="text-gray-600 italic mt-6 text-lg md:text-xl">I’m from Indonesia and I have been working as a Programmer for more than 6 years. I’ve worked for several company in Indonesia as a Back-end Developer and Front-end Developer.</p>
+          <p data-aos="fade-down" data-aos-delay="600" class="text-gray-600 italic mt-6 text-lg md:text-xl">
+            With over <b>six years</b> of experience in crafting dynamic and user-friendly web solutions. With a strong foundation in both front-end and back-end technologies, I have developed a knack for turning complex business challenges into scalable, efficient digital solutions.
+          </p>
           <div class="flex items-center gap-x-6 mt-20">
             <!-- <a href="#"
               class="cursor-pointer rounded-full bg-gradient-to-br from-sky-500 to-blue-500 px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">Email
