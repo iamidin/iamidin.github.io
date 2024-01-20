@@ -24,9 +24,6 @@ export default defineNuxtConfig({
   },
 
   target: 'static',
-  router: {
-    base: '/iamidin.github.io/',
-  },
 
   generate: {
     nojekyll: true,

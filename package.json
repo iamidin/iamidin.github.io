@@ -14,7 +14,7 @@
     "generate": "nuxt generate",
     "serve": "firebase emulators:start",
     "preview": "nuxt preview",
-    "deploy": "nuxt generate && gh-pages --dotfiles -d .output/public -t true",
+    "deploy": "nuxt generate && touch .output/public/.nojekyll && gh-pages --dotfiles --nojekyll -d .output/public -t true",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
